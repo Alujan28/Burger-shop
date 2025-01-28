@@ -35,12 +35,17 @@ footer span a { color: #FFF; }
     color: #FC6;
 }
 
-.tm-text-white{
+.tm-text-white {
+    color: black;
+    transition: color 0.3s ease; 
+  }
+ 
+  .tm-nav-scrolled .tm-text-white {
     color: white;
-}
-
+  }
+  
 .tm-text-info-emphasis{
-    color: rgb(110, 223, 234);
+    color: rgb(188, 198, 72);
 }
 
 .tm-text-gold {
@@ -117,7 +122,7 @@ textarea::-ms-input-placeholder {
 
 #tm-nav li a.current,
 #tm-nav li a:hover {
-      border-bottom: 4px solid #CC9966;
+      border-bottom: 4px solid rgb(215, 59, 59);
 }
 
 .tm-text-2xl {
