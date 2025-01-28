@@ -16,7 +16,7 @@ p a:hover {
 #about p a { color: #FF6347 }
 #about p a:hover { color: #ab230b }
 
-#contact p a { color: #066; }
+#contact p a { color: #FF6347; }
 
 footer span a { color: #FFF; }
 
@@ -34,7 +34,7 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-yellow {
-    color: #FC6;
+    color: #FF6347;
 }
 
 .tm-text-white {
@@ -51,7 +51,7 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-gold {
-    color: #CC9966;
+    color: #FF6347;
 }
 
 .tm-text-brown {
@@ -75,7 +75,7 @@ a.tm-bg-green:hover {
 }
 
 .tm-border-gold {
-    border-color: #CC9966;
+    border-color: #FF6347;
 }
 
 .tm-intro-width {
@@ -88,8 +88,8 @@ a.tm-bg-green:hover {
 
 .input:focus {
     outline: none !important;
-    border:1px solid #CC9966;
-    box-shadow: 0 0 10px #b67533;
+    border:1px solid #FF6347;
+    box-shadow: 0 0 10px #fc2701;
 }
 
 input::placeholder,
