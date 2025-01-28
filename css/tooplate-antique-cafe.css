@@ -35,6 +35,14 @@ footer span a { color: #FFF; }
     color: #FC6;
 }
 
+.tm-text-white{
+    color: white;
+}
+
+.tm-text-info-emphasis{
+    color: rgb(110, 223, 234);
+}
+
 .tm-text-gold {
     color: #CC9966;
 }

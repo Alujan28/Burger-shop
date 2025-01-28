@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,52 +10,99 @@
     <!-- links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
 </head>
+
 <body>
+    <!-- Intro-Start-->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/burger-shop-1.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-white">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i
+                        class="fas fa-2x fa-bars tm-text-white"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#intro"
+                            class="tm-text-white py-1 md:py-3 px-4">Intro</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-white py-1 md:py-3 px-4">Menu</a>
+                    </li>
+                    <li class="inline-block mb-4 mx-4"><a href="#about"
+                            class="tm-text-white py-1 md:py-3 px-4">About</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#contact"
+                            class="tm-text-white py-1 md:py-3 px-4">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Yummy Burger</h1>
+                    <p class="tm-text-info-emphasis tm-text-2xl">Fuel your cravings with every bite.</p>
+                </div>
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        Welcome to Burger Bliss, a modern HTML5 template designed for burger enthusiasts. With sleek
+                        responsiveness and easy customization, it's perfect for your burger shop. Feel free to tweak it
+                        to fit your brand. If you need assistance, let us know! <a rel="nofollow"
+                            href="https://mail.google.com/mail/u/0/?ta" target="_parent">send us a message</a>. </p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#menu"
+                            class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-info-emphasis hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>Let's explore...</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Intro-End-->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script>
 
         function checkAndShowHideMenu() {
-            if(window.innerWidth < 768) {
-                $('#tm-nav ul').addClass('hidden');                
+            if (window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');
             } else {
                 $('#tm-nav ul').removeClass('hidden');
             }
         }
 
-        $(function(){
+        $(function () {
             var tmNav = $('#tm-nav');
             tmNav.singlePageNav();
 
             checkAndShowHideMenu();
             window.addEventListener('resize', checkAndShowHideMenu);
 
-            $('#menu-toggle').click(function(){
+            $('#menu-toggle').click(function () {
                 $('#tm-nav ul').toggleClass('hidden');
             });
 
-            $('#tm-nav ul li').click(function(){
-                if(window.innerWidth < 768) {
+            $('#tm-nav ul li').click(function () {
+                if (window.innerWidth < 768) {
                     $('#tm-nav ul').addClass('hidden');
-                }                
+                }
             });
 
-            $(document).scroll(function() {
+            $(document).scroll(function () {
                 var distanceFromTop = $(document).scrollTop();
 
-                if(distanceFromTop > 100) {
+                if (distanceFromTop > 100) {
                     tmNav.addClass('scroll');
                 } else {
                     tmNav.removeClass('scroll');
                 }
             });
-            
+
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -67,4 +115,5 @@
         });
     </script>
 </body>
+
 </html>
