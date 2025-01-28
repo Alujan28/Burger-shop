@@ -4,15 +4,17 @@ body {
 }
 
 p a {
-	color: #FF6;
+	color: #FF6347;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 p a:hover {
 	color: #9FF;
 }
 
-#about p a { color: #066; }
-#about p a:hover { color: #F36; }
+#about p a { color: #FF6347 }
+#about p a:hover { color: #ab230b }
 
 #contact p a { color: #066; }
 
@@ -45,7 +47,7 @@ footer span a { color: #FFF; }
   }
   
 .tm-text-info-emphasis{
-    color: rgb(188, 198, 72);
+    color: #FF6347;
 }
 
 .tm-text-gold {
@@ -57,11 +59,11 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-green {
-    color: #006666;
+    color: #FF6347;
 }
 
 a.tm-bg-green:hover {
-    background-color: #0a8585;
+    background-color: #850a0a;
 }
 
 .tm-bg-brown {
@@ -69,7 +71,7 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-green {
-    background-color: #006666;
+    background-color: rgb(207, 52, 6);
 }
 
 .tm-border-gold {
