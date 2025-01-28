@@ -4,19 +4,19 @@ body {
 }
 
 p a {
-	color: #FF6347;
+	color: rgb(234, 146, 55);
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 p a:hover {
-	color: #9FF;
+	color: rgb(246, 193, 137);
 }
 
-#about p a { color: #FF6347 }
-#about p a:hover { color: #ab230b }
+#about p a { color: rgb(234, 146, 55) }
+#about p a:hover { color: rgb(234, 146, 55) }
 
-#contact p a { color: #FF6347; }
+#contact p a { color: rgb(234, 146, 55); }
 
 footer span a { color: #FFF; }
 
@@ -34,7 +34,7 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-yellow {
-    color: #ea2300;
+    color: rgb(234, 146, 55);
 }
 
 .tm-text-white {
@@ -47,35 +47,35 @@ footer span a { color: #FFF; }
   }
   
 .tm-text-info-emphasis{
-    color: #FF6347;
+    color: rgb(234, 146, 55);
 }
 
 .tm-text-gold {
-    color: #FF6347;
+    color: rgb(234, 146, 55);
 }
 
 .tm-text-brown {
-    color: #544639;
+    color: black;
 }
 
 .tm-text-green {
-    color: #FF6347;
+    color: rgb(234, 146, 55);
 }
 
 a.tm-bg-green:hover {
-    background-color: #850a0a;
+    background-color: rgb(234, 146, 55);
 }
 
 .tm-bg-brown {
-    background-color: #544639;
+    background-color: rgba(0, 0, 0, 0.829);
 }
 
 .tm-bg-green {
-    background-color: rgb(207, 52, 6);
+    background-color: rgb(243, 163, 78);
 }
 
 .tm-border-gold {
-    border-color: #FF6347;
+    border-color: rgb(234, 146, 55);
 }
 
 .tm-intro-width {
@@ -88,8 +88,8 @@ a.tm-bg-green:hover {
 
 .input:focus {
     outline: none !important;
-    border:1px solid #FF6347;
-    box-shadow: 0 0 10px #fc2701;
+    border:1px solid rgb(234, 146, 55);
+    box-shadow: 0 0 10px rgb(234, 146, 55);
 }
 
 input::placeholder,
@@ -124,7 +124,7 @@ textarea::-ms-input-placeholder {
 
 #tm-nav li a.current,
 #tm-nav li a:hover {
-      border-bottom: 4px solid rgb(215, 59, 59);
+      border-bottom: 4px solid rgb(234, 146, 55);
 }
 
 .tm-text-2xl {
